@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 function App() {
   const [city,setcity] = useState('');
   const [temp,settemp] = useState(0);
-  const [Humidity,sethumidity] = useState(0);
+  const [humidity,sethumidity] = useState(0);
   const [search,setsearch] = useState('');
   const [pressure,setpressure] = useState(0);
   const [wind,setwind] = useState(0);
@@ -57,7 +57,7 @@ function App() {
         <div className="weather-row">
             <div className="weather-column">
               <FeatherIcon icon="cloud" color="white"/>
-              <p>Humidity: {Humidity}</p>
+              <p>Humidity: {humidity}</p>
             </div>
             <div className="weather-column">
                 <FeatherIcon icon="wind" color="white"/>

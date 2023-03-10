@@ -1,7 +1,7 @@
 { 
   "name": "weathery-app",
   "version": "0.1.0",
-  "homepage": "https://prateek-39.github.io/react-weather",
+  "homepage": "https://prateek-39.github.io/reactjs-weather",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
